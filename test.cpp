@@ -1,15 +1,15 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main ()
+int main()
 {
-    int a[4],i=0;
+    int i,a[5];
 
-    for(i=0;i<4;i++)
-    cin>>a;
+    for(i=0;i<5;i++)
+    cin>>a[i];
 
-    for(i=0;i<4;i++)
-    cout<<a;
+    for(i=0;i<5;i++)
+    cout<<a[i]<<endl;
 
-    return 0;
+return 0;
 }
