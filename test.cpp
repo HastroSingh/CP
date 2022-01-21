@@ -12,4 +12,4 @@ int main()
     cout<<a[i]<<endl;
 
 return 0;
-}
+} 
